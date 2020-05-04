@@ -1,10 +1,10 @@
-#CluBERT
+# CluBERT
 This repository contains data for [CluBERT: A Cluster-Based Approach forLearning Sense Distributions in Multiple Languages]()
 ACL paper.
 
 CluBERT is a multilingual approach for automatically producing distribution of senses from a corpus of raw text.
 We use [BabelNet](babelnet.org) as inventory of meanings that is shared across languages.
-#Data
+# Data
 Within the package clubert_v0.9.tar.gz you will find the sense distributions for all the lexemes
 tagged within English, Italian, Spanish, French and German Senseval and SemEval competitions for Word Sense Disambiguation
 (Senseval-2, Senseval-3, SemEval2007 task 17, SemEval2013 task 12, SemEval 2015 task 13).
@@ -65,7 +65,7 @@ to provide an answer for a given dataset instance, that instance will be missing
 the scorer released in the English WSD Evaluation framework to properly compute Precision, Recall and F1. 
 Please refer to http://lcl.uniroma1.it/wsdeval/evaluation-data for the English evaluation datasets and to https://github.com/SapienzaNLP/mwsd-datasets
 for the multilingual evaluation datasets (WordNet split (wn) of the latest version (0.1.6)).  
-#Reference
+# Reference
 When using the data in this repository, please reference the following paper.
 ```
 @inproceedings{pasini-etal-2020-clubert,
