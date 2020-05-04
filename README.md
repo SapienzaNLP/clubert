@@ -12,8 +12,7 @@ Please refer to the [WSD English Evaluation Framework](http://lcl.uniroma1.it/ws
 in English and to the latest release of multilingual WSD tasks of SemEval2013 and SemEval2015
 made available by Sapienza NLP group at https://github.com/SapienzaNLP/mwsd-datasets.
 
-**Soon we will release the distributions for all lemmas in the WordNet part of BabelNet and 
-later the code.**
+**Soon we will release the distributions for all lemmas in the WordNet part of BabelNet.**
 
 The package is structured as follows:
 ```bash
