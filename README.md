@@ -7,7 +7,7 @@ We use [BabelNet](babelnet.org) as inventory of meanings that is shared across l
 # Data
 Within the package clubert_v0.9.tar.gz you will find the sense distributions for all the lexemes
 tagged within English, Italian, Spanish, French and German Senseval and SemEval competitions for Word Sense Disambiguation
-(Senseval-2, Senseval-3, SemEval2007 task 17, SemEvafl2013 task 12, SemEval 2015 task 13).
+(Senseval-2, Senseval-3, SemEval2007 task 17, SemEval2013 task 12, SemEval 2015 task 13).
 Please refer to the [WSD English Evaluation Framework](http://lcl.uniroma1.it/wsdeval/evaluation-data) for the test sets
 in English and to the latest release of multilingual WSD tasks of SemEval2013 and SemEval2015
 made available by Sapienza NLP group at https://github.com/SapienzaNLP/mwsd-datasets.
