@@ -1,5 +1,5 @@
 # CluBERT
-This repository contains data for [CluBERT: A Cluster-Based Approach forLearning Sense Distributions in Multiple Languages]()
+This repository contains data for [CluBERT: A Cluster-Based Approach forLearning Sense Distributions in Multiple Languages](https://www.researchgate.net/publication/341151563_CluBERT_A_Cluster-Based_Approach_for_Learning_Sense_Distributions_in_Multiple_Languages)
 ACL paper.
 
 CluBERT is a multilingual approach for automatically producing distribution of senses from a corpus of raw text.
