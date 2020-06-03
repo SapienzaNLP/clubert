@@ -1,8 +1,8 @@
 # CluBERT
-This repository contains data for [CluBERT: A Cluster-Based Approach forLearning Sense Distributions in Multiple Languages]()
+This repository contains data for [CluBERT: A Cluster-Based Approach forLearning Sense Distributions in Multiple Languages](https://www.researchgate.net/publication/341151563_CluBERT_A_Cluster-Based_Approach_for_Learning_Sense_Distributions_in_Multiple_Languages)
 ACL paper.
 
-CluBERT is a multilingual approach for automatically producing distribution of senses from a corpus of raw text.
+CluBERT is a multilingual approach (tested on English, French, German, Italian and Spanish) for automatically producing distribution of senses from a corpus of raw text.
 We use [BabelNet](babelnet.org) as inventory of meanings that is shared across languages.
 # Data
 Within the package clubert_v0.9.tar.gz you will find the sense distributions for all the lexemes
