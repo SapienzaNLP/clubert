@@ -66,7 +66,7 @@ for the multilingual evaluation datasets (WordNet split (wn) of the latest versi
 
 # Reference
 When using the data in this repository, please reference the following paper.
-```latex
+```
 @inproceedings{pasini-etal-2020-clubert,
     title = "{C}lu{BERT}: {A} Cluster-Based Approach for Learning Sense Distributions in Multiple Languages",
     author = "Pasini, Tommaso  and
