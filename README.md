@@ -66,15 +66,20 @@ for the multilingual evaluation datasets (WordNet split (wn) of the latest versi
 
 # Reference
 When using the data in this repository, please reference the following paper.
-```
+```latex
 @inproceedings{pasini-etal-2020-clubert,
-    title = {{CluBERT: A Cluster-Based Approach for Learning Sense Distributions in Multiple Languages}},
-    author = {Pasini, Tommaso and Scozzafava, Federico, and Scarlini, Bianca},
-    booktitle = {Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics},
-    year = {2020},
-    publisher = {Association for Computational Linguistics}
-}
-
+    title = "{C}lu{BERT}: {A} Cluster-Based Approach for Learning Sense Distributions in Multiple Languages",
+    author = "Pasini, Tommaso  and
+      Scozzafava, Federico  and
+      Scarlini, Bianca",
+    booktitle = "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+    month = jul,
+    year = "2020",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/2020.acl-main.369",
+    pages = "4008--4018",
+    }
 ```
 # License
 All data and codes provided in this repository are subject to the  Attribution-Non Commercial-ShareAlike 4.0 International license (CC BY-NC 4.0).
