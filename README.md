@@ -5,18 +5,17 @@ ACL paper.
 CluBERT is a multilingual approach (tested on English, French, German, Italian and Spanish) for automatically producing distribution of senses from a corpus of raw text.
 We use [BabelNet](babelnet.org) as inventory of meanings that is shared across languages.
 # Data
-Within the package clubert_v0.9.tar.gz you will find the sense distributions for all the lexemes
+Within the package clubert_v1.0.tar.gz/.zip you will find the sense distributions for all the lexemes
 tagged within English, Italian, Spanish, French and German Senseval and SemEval competitions for Word Sense Disambiguation
 (Senseval-2, Senseval-3, SemEval2007 task 17, SemEval2013 task 12, SemEval 2015 task 13).
 Please refer to the [WSD English Evaluation Framework](http://lcl.uniroma1.it/wsdeval/evaluation-data) for the test sets
 in English and to the latest release of multilingual WSD tasks of SemEval2013 and SemEval2015
 made available by Sapienza NLP group at https://github.com/SapienzaNLP/mwsd-datasets.
 
-**Soon we will release the distributions for all lemmas in the WordNet part of BabelNet.**
 
 The package is structured as follows:
 ```bash
-clubert_v0.9
+clubert_v1.0
 ├── answers
 │   ├── de
 │   │   └── semeval2013-de.answers.txt
@@ -64,17 +63,23 @@ to provide an answer for a given dataset instance, that instance will be missing
 the scorer released in the English WSD Evaluation framework to properly compute Precision, Recall and F1. 
 Please refer to http://lcl.uniroma1.it/wsdeval/evaluation-data for the English evaluation datasets and to https://github.com/SapienzaNLP/mwsd-datasets
 for the multilingual evaluation datasets (WordNet split (wn) of the latest version (0.1.6)).  
+
 # Reference
 When using the data in this repository, please reference the following paper.
 ```
 @inproceedings{pasini-etal-2020-clubert,
-    title = {{CluBERT: A Cluster-Based Approach for Learning Sense Distributions in Multiple Languages}},
-    author = {Pasini, Tommaso and Scozzafava, Federico, and Scarlini, Bianca},
-    booktitle = {Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics},
-    year = {2020},
-    publisher = {Association for Computational Linguistics}
-}
-
+    title = "{C}lu{BERT}: {A} Cluster-Based Approach for Learning Sense Distributions in Multiple Languages",
+    author = "Pasini, Tommaso  and
+      Scozzafava, Federico  and
+      Scarlini, Bianca",
+    booktitle = "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+    month = jul,
+    year = "2020",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/2020.acl-main.369",
+    pages = "4008--4018",
+    }
 ```
 # License
 All data and codes provided in this repository are subject to the  Attribution-Non Commercial-ShareAlike 4.0 International license (CC BY-NC 4.0).
